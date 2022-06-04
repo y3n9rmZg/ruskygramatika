@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russiangrammar game app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <img src="rusky.png">
+        <img src="logo.png">
+    </header>
+    <section>
+        <p id="conjugate"></p>
+        <p id="question"></p>
+    </section>
+    <section>
+        <pre id="answer" style="display: none;"></pre>
+    </section>
+    
+    <section id="user_choices" style="display: none;">
+        <!--    p => person, s => singular, pl => plural     -->
+        <button id="i_p_s" onclick="getAnswer(0);"></button>
+        <button id="ii_p_s" onclick="getAnswer(1);"></button>
+        <button id="iii_p_s" onclick="getAnswer(2);"></button>
+        <button id="i_p_pl" onclick="getAnswer(3);"></button>
+        <button id="ii_p_pl" onclick="getAnswer(4);"></button>
+        <button id="iii_p_pl" onclick="getAnswer(5);"></button>
+    </section>
+
+    <section>
+        <button onclick="getQuestion();">Start</button>
+    </section>
+    <script src="verbs.js"></script>
+    <script src="verbos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
