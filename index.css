@@ -1,0 +1,33 @@
+body{
+    background-color: #bcb6c5;
+}
+header{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p, pre{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0 auto;
+}
+section, header{
+    margin: 0 auto;
+    margin-top: 0.2em;
+    display: block;
+    width: 40%;
+    text-align: center;
+    font-size: 2em;
+    background-color: #ffffff;
+    box-shadow: inset 0px 0px 0px 3px #D1E5ED,2px 2px 3px 1px #869BA2;
+    -webkit-box-shadow: inset 0px 0px 0px 3px #D1E5ED,2px 2px 3px 1px #869BA2;
+    -moz-box-shadow: inset 0px 0px 0px 3px #D1E5ED,2px 2px 3px 1px #869BA2;
+    -o-box-shadow: inset 0px 0px 0px 3px #D1E5ED,2px 2px 3px 1px #869BA2;
+}
+button{
+    margin-bottom: 1em;
+}
