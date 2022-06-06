@@ -1,8 +1,8 @@
 const verbos =[
     {
-        verbo : "ir"
+        verbo : "идти́"
     },
     {
-        verbo : "correr"
+        verbo : "рабо́тать"
     }
     ]

@@ -1,5 +1,6 @@
 body{
     background-color: #bcb6c5;
+    font-family: monospace;
 }
 header{
     padding-top: 1em;
@@ -31,3 +32,8 @@ section, header{
 button{
     margin-bottom: 1em;
 }
+@media only screen and (max-width: 720px) {
+    section, header {
+      width: 90%;
+    }
+  }

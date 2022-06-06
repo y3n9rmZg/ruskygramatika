@@ -1,12 +1,12 @@
 function getQuestion(){
     window.rndNumber = Math.floor(Math.random()*verbos.length);
     //####################################################################
-    document.getElementById("i_p_s").textContent=verbs[rndNumber].eu;
-    document.getElementById("ii_p_s").textContent=verbs[rndNumber].tu;
-    document.getElementById("iii_p_s").textContent=verbs[rndNumber].ele;
-    document.getElementById("i_p_pl").textContent=verbs[rndNumber].nos;
-    document.getElementById("ii_p_pl").textContent=verbs[rndNumber].vos;
-    document.getElementById("iii_p_pl").textContent=verbs[rndNumber].eles;
+    document.getElementById("i_p_s").textContent=verbs[rndNumber].я;
+    document.getElementById("ii_p_s").textContent=verbs[rndNumber].ты;
+    document.getElementById("iii_p_s").textContent=verbs[rndNumber].он;
+    document.getElementById("i_p_pl").textContent=verbs[rndNumber].мы;
+    document.getElementById("ii_p_pl").textContent=verbs[rndNumber].Вы;
+    document.getElementById("iii_p_pl").textContent=verbs[rndNumber].они;
     //####################################################################
     window.rndPerson = Math.floor(Math.random()*person.length);
     document.getElementById("question").textContent=person[rndPerson];

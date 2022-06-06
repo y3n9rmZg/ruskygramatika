@@ -1,19 +1,19 @@
 const verbs =[
 {
-    eu : "vou",
-    tu : "vais",
-    ele : "vai",
-    nos : "vamos",
-    vos : "ides",
-    eles : "vão"
+    "я" : "иду́",
+    "ты" : "идёшь",
+    "он" : "идёт",
+    "мы" : "идём",
+    "Вы" : "идёте",
+    "они" : "иду́т"
 },
 {
-    eu : "corro",
-    tu : "corres",
-    ele : "corre",
-    nos : "corremos",
-    vos : "correis",
-    eles : "correm"
+    "я" : "рабо́таю",
+    "ты" : "рабо́таешь",
+    "он" : "рабо́тает",
+    "мы" : "рабо́таем",
+    "Вы" : "рабо́таете",
+    "они" : "рабо́тают"
 }
 ];
-const person = ["eu", "tu", "ele", "nos", "vos", "eles"];
+const person = ["я","ты","он","мы","Вы","они"];
