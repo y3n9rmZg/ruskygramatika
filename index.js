@@ -14,6 +14,7 @@ function getQuestion(){
     document.getElementById("user_choices").style.display="block";
     document.getElementById("answer").style.display="none";
     document.getElementById("conjugate").textContent="Conjugate the verb "+ verbos[rndNumber].verbo;
+    document.getElementById("transl").textContent="\(" + verbos[rndNumber].translation + "\)";
 }
 function getAnswer(answer){
     const userInput = Object.values(verbs[rndNumber])[answer];
